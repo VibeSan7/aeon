@@ -1,0 +1,296 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deep Research: AI Agents",
+        "description": "2026-05-18 • 26 sources (T1:12 T2:11 T3:3) • 8 papers"
+      },
+      "children": [
+        "heading_topic",
+        "sep1",
+        "heading_context",
+        "text_context",
+        "stack_stats",
+        "sep2",
+        "heading_findings",
+        "stack_findings",
+        "sep3",
+        "heading_strongest",
+        "text_strongest_source",
+        "stat_amplification",
+        "sep4",
+        "heading_question",
+        "text_question",
+        "sep5",
+        "link_report"
+      ]
+    },
+    "heading_topic": {
+      "type": "Heading",
+      "props": {
+        "text": "Topic: AI Agents",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "The market has scale but reliability is lagging capability. Princeton's Kapoor & Narayanan document reliability improving at half the rate of accuracy on general benchmarks; one-seventh on customer service. Datadog telemetry shows 5% of LLM call spans erroring in Feb 2026, 60% from rate limits. Only 14% of pilots have scaled to org-wide use.",
+        "variant": "body"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_enterprises",
+        "stat_growth",
+        "stack_error",
+        "stat_pilots"
+      ]
+    },
+    "stat_enterprises": {
+      "type": "Stat",
+      "props": {
+        "label": "Enterprises in production (LangChain)",
+        "value": "51%"
+      }
+    },
+    "stat_growth": {
+      "type": "Stat",
+      "props": {
+        "label": "YoY agent growth (Microsoft 365)",
+        "value": "15×"
+      }
+    },
+    "stack_error": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_error_rate",
+        "stat_error_source"
+      ]
+    },
+    "stat_error_rate": {
+      "type": "Stat",
+      "props": {
+        "label": "LLM call spans erroring (Feb 2026, Datadog)",
+        "value": "5%"
+      }
+    },
+    "stat_error_source": {
+      "type": "Stat",
+      "props": {
+        "label": "Error source: rate limits",
+        "value": "60%"
+      }
+    },
+    "stat_pilots": {
+      "type": "Stat",
+      "props": {
+        "label": "Pilots scaled to org-wide use",
+        "value": "14%"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_findings": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Findings",
+        "level": "h3"
+      }
+    },
+    "stack_findings": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "finding_1",
+        "finding_2",
+        "finding_3"
+      ]
+    },
+    "finding_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_conf_1",
+        "text_finding_1"
+      ]
+    },
+    "badge_conf_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Confidence: High",
+        "variant": "secondary"
+      }
+    },
+    "text_finding_1": {
+      "type": "Text",
+      "props": {
+        "text": "Reliability gap widening — autonomy demands <1% end-to-end failure; agents aren't there.",
+        "variant": "body"
+      }
+    },
+    "finding_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_conf_2",
+        "text_finding_2_main",
+        "story_arxiv"
+      ]
+    },
+    "badge_conf_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Confidence: High",
+        "variant": "secondary"
+      }
+    },
+    "text_finding_2_main": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent \"deliberation cascade\": combining hierarchy with distributed deliberation degrades performance up to 3.4× across five LLM families — directly contradicts vendor narrative.",
+        "variant": "body"
+      }
+    },
+    "story_arxiv": {
+      "type": "StoryLink",
+      "props": {
+        "title": "arXiv 2605.16205",
+        "href": "https://arxiv.org/abs/2605.16205",
+        "source": "arXiv"
+      }
+    },
+    "finding_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_conf_3",
+        "text_finding_3"
+      ]
+    },
+    "badge_conf_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Confidence: High",
+        "variant": "secondary"
+      }
+    },
+    "text_finding_3": {
+      "type": "Text",
+      "props": {
+        "text": "Identity/security is the visible blocker — two-thirds of orgs suspect agents have already accessed out-of-scope data (Akeyless, n=400).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_strongest": {
+      "type": "Heading",
+      "props": {
+        "text": "Strongest Data Point",
+        "level": "h3"
+      }
+    },
+    "text_strongest_source": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent independent operation amplified errors 17.2× vs 4.4× with coordination (AscentCore, 2026-05-04, T2).",
+        "variant": "caption"
+      }
+    },
+    "stat_amplification": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_amp_without",
+        "stat_amp_with"
+      ]
+    },
+    "stat_amp_without": {
+      "type": "Stat",
+      "props": {
+        "label": "Error amplification (independent operation)",
+        "value": "17.2×"
+      }
+    },
+    "stat_amp_with": {
+      "type": "Stat",
+      "props": {
+        "label": "Error amplification (with coordination)",
+        "value": "4.4×"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Open Question",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What error rate operationally defines an \"autonomous\" agent — no consensus exists.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_report": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Report",
+        "href": "articles/deep-research-2026-05-18.md",
+        "source": "Deep Research"
+      }
+    }
+  }
+}
