@@ -35,11 +35,11 @@
   "morning-brief": {
     "last_dispatch": "2026-05-21T21:50:26Z",
     "last_status": "failed",
-    "last_failed": "2026-05-22T21:49:07Z",
-    "total_runs": 38,
+    "last_failed": "2026-05-22T22:44:31Z",
+    "total_runs": 39,
     "total_successes": 0,
-    "total_failures": 38,
-    "consecutive_failures": 38,
+    "total_failures": 39,
+    "consecutive_failures": 39,
     "success_rate": 0
   },
   "research-brief": {
