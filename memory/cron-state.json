@@ -45,11 +45,11 @@
   "research-brief": {
     "last_dispatch": "2026-05-20T21:22:22Z",
     "last_status": "failed",
-    "last_failed": "2026-05-22T21:49:15Z",
-    "total_runs": 18,
+    "last_failed": "2026-05-22T22:44:39Z",
+    "total_runs": 20,
     "total_successes": 0,
-    "total_failures": 18,
-    "consecutive_failures": 18,
+    "total_failures": 20,
+    "consecutive_failures": 20,
     "success_rate": 0
   },
   "pr-review": {
