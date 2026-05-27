@@ -54,11 +54,11 @@
   },
   "pr-review": {
     "last_status": "failed",
-    "last_failed": "2026-05-27T21:14:45Z",
-    "total_runs": 88,
+    "last_failed": "2026-05-27T22:51:26Z",
+    "total_runs": 89,
     "total_successes": 0,
-    "total_failures": 88,
-    "consecutive_failures": 88,
+    "total_failures": 89,
+    "consecutive_failures": 89,
     "success_rate": 0,
     "last_dispatch": "2026-05-27T16:55:11Z"
   }
