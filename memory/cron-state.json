@@ -44,12 +44,12 @@
   },
   "research-brief": {
     "last_dispatch": "2026-06-18T15:48:28Z",
-    "last_status": "dispatched",
-    "last_failed": "2026-06-17T22:30:07Z",
-    "total_runs": 258,
+    "last_status": "failed",
+    "last_failed": "2026-06-18T15:48:49Z",
+    "total_runs": 260,
     "total_successes": 0,
-    "total_failures": 258,
-    "consecutive_failures": 258,
+    "total_failures": 260,
+    "consecutive_failures": 260,
     "success_rate": 0
   },
   "pr-review": {
